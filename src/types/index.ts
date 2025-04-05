@@ -232,7 +232,14 @@ export interface Translation {
   accountCannotChange: string;
   passwordsDoNotMatch: string;
   basicSettings: string;
+  AudioSettings: String;
   voiceSettings: string;
+  Privacy: string;
+  Hotkeys: string;
+  File_Directories: string;
+  Sounds_Alerts: string;
+  Overlay: string;
+  Connect_to_Facebook: string;
   aboutUs: string;
   generalSettings: string;
   autoStartup: string;
@@ -604,9 +611,16 @@ export const translations: Record<LanguageKey, Translation> = {
     accountCannotChange: '帳號註冊後不可更換',
     passwordsDoNotMatch: '密碼輸入不一致',
     basicSettings: '基本設定',
+    AudioSettings: '音頻音效',
     voiceSettings: '語音設定',
+    Privacy: '隱私設定',
+    Hotkeys: '熱建設定',
+    File_Directories: '檔案管理',
+    Sounds_Alerts: '聲音提醒',
+    Overlay: '遊戲迷你窗',
+    Connect_to_Facebook: 'Facebook串聯',
     aboutUs: '關於我們',
-    generalSettings: '一般設定',
+    generalSettings: '常規',
     autoStartup: '開機自動啟動',
     autoStartupDescription: '開機時自動啟動應用程式',
     minimizeToTray: '最小化到系統列',
@@ -974,9 +988,16 @@ export const translations: Record<LanguageKey, Translation> = {
     accountCannotChange: '账号注册后不可更换',
     passwordsDoNotMatch: '密码输入不一致',
     basicSettings: '基本设置',
+    AudioSettings: '音频音效',
     voiceSettings: '语音设置',
+    Privacy: '隐私设置',
+    Hotkeys: '热键设置',
+    File_Directories: '文件管理',
+    Sounds_Alerts: '声音提醒',
+    Overlay: '游戏迷您窗',
+    Connect_to_Facebook: 'Facebook串连',
     aboutUs: '关于我们',
-    generalSettings: '一般设置',
+    generalSettings: '常規',
     autoStartup: '开机自动启动',
     autoStartupDescription: '开机时自动启动应用程序',
     minimizeToTray: '最小化到系统列',
